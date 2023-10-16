@@ -1,0 +1,14 @@
+def list_to_dict(list):
+    # Using enumerate  the list into a dictionary
+    result_dict = {index: val for index, val in enumerate(list)}
+    return result_dict
+
+# Examp usage list
+list = [1, 2, 3, 4]
+result = list_to_dict(list)
+
+# Print  result dictionary
+print(result)
+
+
+# output  =  {0: 1, 1: 2, 2: 3, 3: 4}
